@@ -1,3 +1,4 @@
+//This is our course Router
 const express = require('express');
 const router = express.Router();
 const authorizeUser = require("../Middlewares/isValidUser")
